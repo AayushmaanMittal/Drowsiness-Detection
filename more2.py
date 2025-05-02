@@ -6,7 +6,7 @@ import mediapipe as mp
 from tensorflow.keras.models import load_model
 from pygame import mixer
 
-# Initialize alert sound
+# Initialize alert sound # final file
 mixer.init()
 sound = mixer.Sound('alarm2.wav')
 
